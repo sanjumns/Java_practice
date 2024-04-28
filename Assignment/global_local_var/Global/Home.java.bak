@@ -1,0 +1,19 @@
+class Home
+{
+	static String name="Janani";
+	static int cost=7000000;
+	static String color="White";
+
+	public static void main(String[] args)
+	{
+		
+
+		System.out.println("                           ");
+		System.out.println("***************************");
+		System.out.println("Name of the Home   --> "+name);
+		System.out.println("Cost of the Home   --> "+cost);
+		System.out.println("Color of the home ---> "+brand);
+		System.out.println("***************************");
+		System.out.println("                           ");
+	}
+}

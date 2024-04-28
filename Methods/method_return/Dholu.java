@@ -1,0 +1,15 @@
+class Dholu 
+{
+	static int add()
+	{
+		int a=10;
+		return a;
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Main method Starts");
+		int x=add();
+		System.out.println(x);
+		System.out.println("Main method ends");
+	}
+}

@@ -1,0 +1,15 @@
+goto browser
+search jdk 17 download
+then slowly scroll down
+download windows x64 MSI installer
+downloaded file will be stored in downloads folder
+then open the downloaded file
+then install
+
+uninstall:
+goto start menu
+search control panel
+programs and feature
+search for Java development kit
+uninstall
+

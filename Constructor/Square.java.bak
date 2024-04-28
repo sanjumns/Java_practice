@@ -1,0 +1,14 @@
+class Square 
+{
+	int a;
+	Square(int b)
+	{
+		a=b;
+		int res=a*a;
+	}	
+	public static void main(String[] args) 
+	{
+		Square s=new Square(55);
+		System.out.println(s.res);
+	}
+}

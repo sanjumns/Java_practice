@@ -1,0 +1,18 @@
+class Parallelogram 
+{
+	int result;
+	int b;
+	int h;
+
+	Parallelogram(double c, double i)
+	{
+		b=c;
+		h=i;
+		result=b*h;
+	}
+	public static void main(String[] args) 
+	{
+		Parallelogram p= new Parallelogram(5.3,6.3);
+		System.out.println(p.result);
+	}
+}

@@ -1,0 +1,15 @@
+class Kannada 
+{
+	String a="kannada";
+}
+class Hindi extends Kannada
+{
+	String b="Hindi";
+}
+class Movies
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Movies you can watch are "+a+" "+b);
+	}
+}

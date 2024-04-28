@@ -1,0 +1,16 @@
+class Rect 
+{
+	static void area(double w, double b)
+	{
+		double res=w*b;
+		System.out.println(res);
+	}
+}
+class Rectangle
+{
+
+	public static void main(String[] args) 
+	{
+		Rect.area(5.3,4.5);
+	}
+}

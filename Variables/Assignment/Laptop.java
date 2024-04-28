@@ -1,0 +1,15 @@
+class Laptop 
+{
+	static String brand;
+	String name;
+	int cost;
+
+	public static void main(String[] args) 
+	{
+		brand="Dell";
+		Laptop l=new Laptop();
+		l.name="Inspiron 14";
+		l.cost=55000;
+		System.out.println(brand+" "+l.name+" "+l.cost);
+	}
+}

@@ -1,0 +1,12 @@
+class Parallelogram 
+{
+	static void area(double b, double h)
+	{
+		double area=b*h;
+		System.out.println("The area of parlellogram measuring base x height "+b+" x "+h+" is "+area);
+	}
+	public static void main(String[] args) 
+	{
+		area(30.5,40.8);
+	}
+}

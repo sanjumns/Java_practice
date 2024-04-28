@@ -1,0 +1,14 @@
+class Mobile 
+{
+	int mob_cost;
+	String mob_mod;
+	String mob_col;
+	public static void main(String[] args) 
+	{
+		Mobile m=new Mobile();
+		m.mob_cost=15000;
+		m.mob_mod="Galaxy M51";
+		m.mob_col="Black";
+		System.out.println(m.mob_cost+" "+m.mob_mod+" "+m.mob_col);
+	}
+}
