@@ -1,0 +1,31 @@
+class Petrol
+{
+	String p="Liters of petrol";
+}
+class Tesla extends Petrol
+{
+	int a=0;
+	void qty()
+	{
+		System.out.println("Tesla requires "+a+" "+p);
+	}
+}
+class Celerio extends Petrol
+{
+	int b=35;
+	void qty()
+	{
+		System.out.println("Celerio requires "+b+" "+p);
+	}
+}
+class Hierarchical2
+{
+	public static void main(String[] args) 
+	{
+		Tesla t=new Tesla();
+		t.qty();
+		Celerio c=new Celerio();
+		c.qty();
+		System.out.println("****************************");
+	}
+}

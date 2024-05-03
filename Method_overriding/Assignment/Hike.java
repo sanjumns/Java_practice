@@ -1,0 +1,25 @@
+class Hike_v1 
+{
+	void natasha()
+	{
+		System.out.println("First AI chatbot introduced");
+	}
+}
+class Hike_v2 extends Hike_v1
+{
+	void natasha()
+	{
+		super.natasha();
+		System.out.println("Made available for everyone");
+	}
+}
+class Hike
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("*************************");
+		Hike_v2 v2=new Hike_v2();
+		v2.natasha();
+		System.out.println("*************************");
+	}
+}

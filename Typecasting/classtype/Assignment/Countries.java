@@ -1,0 +1,27 @@
+class Phillipines 
+{
+	void say()
+	{
+		System.out.println("Peaceful Country to live");
+	}
+}
+class India extends Phillipines
+{
+	void saying()
+	{
+		System.out.println("Country of Highest population");
+	}
+}
+class Countries
+{
+	public static void main(String[] args) 
+	{
+		Phillipines p=new India(); //upcasting
+		p.say();
+		India i=(India) p; //downcasting
+		i.say();
+		i.saying();
+
+		System.out.println("***************************");
+	}
+}
