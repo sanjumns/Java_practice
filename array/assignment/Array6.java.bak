@@ -1,0 +1,13 @@
+class Array6 
+{
+	public static void main(String[] args) 
+	{
+		String g[]={"Apple","Ball","Cat","Dog");
+		System.out.println(g.length);
+		for (int i=0;i<g.length ;i++ )
+		{
+			System.out.println(g[i]);
+		}
+		System.out.println("*******************");
+	}
+}

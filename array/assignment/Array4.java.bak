@@ -1,0 +1,13 @@
+class Array4 
+{
+	public static void main(String[] args) 
+	{
+		doble e[]={1.1,2.2,3.3,4.45,2.36};
+		System.out.println("array length is "+e.length);
+		for (int i=0;i<e.length ;i++ )
+		{
+			System.out.println(e[i]);
+		}
+		System.out.println("******************");
+	}
+}

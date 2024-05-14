@@ -1,0 +1,28 @@
+import java.util.Arrays;
+class Ex_float
+{
+	public static void main(String[] args) 
+	{
+		float[] a={7.98f,8.95f,3.23f,9.75f};
+		Arrays.sort(a);
+		print_a_f(a);
+		print_a_b(a);
+		System.out.println("***********************");
+	}
+	static void print_a_f(float[] x)
+	{
+		System.out.println("***********************");
+		for (int i=0;i<x.length ;i++ )
+		{
+			System.out.println(x[i]);
+		}
+	}
+	static void print_a_b(float[] x)
+	{
+		System.out.println("***********************");
+		for (int i=x.length-1;i>=0 ;i-- )
+		{
+			System.out.println(x[i]);
+		}
+	}
+}
