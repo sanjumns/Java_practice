@@ -16,7 +16,7 @@ class Odd_Even
 		{
 			if(a[i]%2==0)
 			{
-				System.out.println("Even number ---> "+a[i])+" |");
+				System.out.println("Even number ---> "+a[i]+" |");
 			}
 		}
 		System.out.println("*************************");
