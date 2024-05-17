@@ -1,0 +1,27 @@
+class Addition 
+{
+	static int m=1;
+	static int n=1;
+	static void disp(int x)
+	{
+		if (x<=10)
+		{
+			if(x%2==0)
+			{
+				m=m+x;
+			}
+			else
+			{
+				n=n+x;
+			}
+			x++;
+			disp(x);
+		}
+	}
+	public static void main(String[] args) 
+	{
+		disp(1);
+
+		System.out.println("Even = "+m +"  and  "+ "odd = "+n);
+	}
+}
